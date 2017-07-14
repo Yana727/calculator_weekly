@@ -1,0 +1,16 @@
+main {
+  align-self: center; /*nope*/
+  padding: 5em;
+  margin: 5em;
+}
+
+button {
+  background-color: #6ef442;
+  width: 8em;
+  height: 8em;
+  font-size: 1em; 
+}
+
+.special {
+  background-color: #a4e562;
+}
