@@ -1,16 +1,39 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+  margin: 0px auto;
+  width: 100%;
+}
+
 main {
-  align-self: center; /*nope*/
   padding: 5em;
-  margin: 5em;
+  margin: 0;
 }
 
 button {
   background-color: #6ef442;
-  width: 8em;
-  height: 8em;
-  font-size: 1em; 
+  width:5em;
+  height:5em;
+  font-size:1em;
+  color: white;
 }
 
 .special {
   background-color: #a4e562;
+  color: black;
+}
+
+.clear_output {
+  background-color: #6ef442;
+  display: flex;
+
+}
+.Answer{
+  width: inherit;
+  color: white;
+  font-size: 3em;
+}
+
+.class_row {
+  width: 20.75em;
 }

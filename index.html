@@ -1,53 +1,55 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Calculator</title>
-    <link rel="stylesheet" href="main.css">
-  </head>
-  <body>
+<head>
+  <meta charset="utf-8">
+  <title>Calculator</title>
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+  <div class="wrapper">
     <main>
-  <section>
-    <div class="clear_output">
-      <button type="button" name="C">C</button>
-      <div class="Answer">
-      </div>
-    </div>
-  </section>
-  <section>
-    <div class="second_dwn">
-      <button type="button" name="7">7</button>
-      <button type="button" name="8">8</button>
-      <button type="button" name="9">9</button>
-      <button type="button" name="/" class="special" id = "divide" >/</button>
-    </div>
-  </section>
-  <section>
-    <div class="third_dwn">
-      <button type="button" name="4">4</button>
-      <button type="button" name="5">5</button>
-      <button type="button" name="6">6</button>
-      <button type="button" name="*" class = "special" id = "multiply" >*</button>
-    </div>
-  </section>
-  <section>
-    <div class="fourth_dwn">
-      <button type="button" name="1">1</button>
-      <button type="button" name="2">2</button>
-      <button type="button" name="3">3</button>
-      <button type="button" name="-" class = "special" id = "subtract" >-</button>
-    </div>
-  </section>
-  <section>
-    <div class="fifth_dwn">
-      <button type="button" name="0">0</button>
-      <button type="button" name=".">.</button>
-      <button type="button" name="=" class = "equal" id = "equal">=</button>
-      <button type="button" name="+" class = "special" id = "add" >+</button>
-    </div>
-  </section>
-  </main>
-   <script src="main.js">
-   </script>
-  </body>
+      <section class="class_row">
+        <div class="clear_output">
+          <button class="clear" name="C" value = " " id = >C</button>
+          <div class="Answer">
+          </div>
+        </div>
+      </section>
+      <section class="class_row">
+        <div class="second_dwn">
+          <button type="button" name="7" value='7' >7</button>
+          <button type="button" name="8" value='8' >8</button>
+          <button type="button" name="9" value='9' >9</button>
+          <button type="button" name="/" class="special" class="divide" id="/" value="/" >/</button>
+        </div>
+      </section>
+      <section class="class_row">
+        <div class="third_dwn">
+          <button type="button" name="4" value='4' >4</button>
+          <button type="button" name="5" value='5' >5</button>
+          <button type="button" name="6" value='6' >6</button>
+          <button type="button" class="special" name="*" class = "multiply" id="*" value= "*">*</button>
+        </div>
+      </section>
+      <section class="class_row">
+        <div class="fourth_dwn">
+          <button type="button" name="1" value='1' >1</button>
+          <button type="button" name="2" value='2' >2</button>
+          <button type="button" name="3" value='3' >3</button>
+          <button type="button" class="special" name="-" class="minus" id="-" value="-">-</button>
+        </div>
+      </section>
+      <section class="class_row">
+        <div class="fifth_dwn">
+          <button type="button" name="0">0</button>
+          <button type="button" name=".">.</button>
+          <button type="button" name="=" class="equal" id="=">=</button>
+          <button type="button" class="special" name="+" class="plus" id="+" value="+">+</button>
+        </div>
+      </section>
+    </main>
+  </div>
+  <script src="main.js">
+  </script>
+</body>
 </html>
